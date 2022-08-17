@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+ <image src="{{src}}" mode="widthFix"></image>
+ <!--<image src="/images/logo.png" mode='widthFix'></image>-->
+  <text>{{name}}</text>
+  <button open-type="getUserInfo" bindtap="getMyInfo">
+    <!--open-type="getUserInfo"表示获取用户用户信息，然后使用bindgetuserinfo属性将数据传给后面的函数-->
+    点击获取头像和昵称
+  </button>
+</view>
