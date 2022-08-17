@@ -12,5 +12,4 @@ image{
 }
 text{
   font-size: 50rpx;               /*字体大小*/
-  color:rgb(4, 150, 247);
 }
